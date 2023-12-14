@@ -20,7 +20,7 @@ for i in years:
 plt.legend()
 plt.title("Excess Deaths in Europe\n")
 plt.xlabel("week")
-plt.xlabel("Death Count")
+plt.ylabel("Death Count")
 plt.xticks([i for i in range(0,55,5)])
 plt.savefig("CovidDeathsEurope.png")
 plt.show()
